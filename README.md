@@ -116,6 +116,7 @@ bool = isStructDataType( 'int32' );
 
 ```javascript
 var structFactory = require( '@stdlib/dstructs-struct' );
+var DataType = require( '@stdlib/ndarray-dtype-ctor' );
 var isStructDataType = require( '@stdlib/ndarray-base-assert-is-struct-data-type' );
 
 var Struct = structFactory([
@@ -126,6 +127,9 @@ var Struct = structFactory([
 ]);
 
 var bool = isStructDataType( Struct );
+// returns true
+
+bool = isStructDataType( new DataType( Struct ) );
 // returns true
 
 bool = isStructDataType( 'binary' );
