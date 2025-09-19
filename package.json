@@ -39,7 +39,8 @@
   "dependencies": {
     "@stdlib/assert-is-function": "^0.2.2",
     "@stdlib/assert-is-positive-integer": "^0.2.2",
-    "@stdlib/ndarray-base-assert-is-data-type-object": "github:stdlib-js/ndarray-base-assert-is-data-type-object#main"
+    "@stdlib/ndarray-base-assert-is-data-type-object": "github:stdlib-js/ndarray-base-assert-is-data-type-object#main",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
