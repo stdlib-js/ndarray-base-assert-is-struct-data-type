@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isStructDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-struct-data-type@esm/index.mjs';
+import isStructDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-struct-data-type@v0.1.1-esm/index.mjs';
 ```
 
 #### isStructDataType( value )
@@ -104,7 +104,7 @@ bool = isStructDataType( 'int32' );
 
 import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/dstructs-struct@esm/index.mjs';
 import DataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtype-ctor@esm/index.mjs';
-import isStructDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-struct-data-type@esm/index.mjs';
+import isStructDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-struct-data-type@v0.1.1-esm/index.mjs';
 
 var Struct = structFactory([
     {
