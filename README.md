@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isStructDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-struct-data-type@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-assert-is-struct-data-type/tags). For example,
+
+```javascript
 import isStructDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-struct-data-type@v0.1.1-deno/mod.js';
 ```
 
@@ -99,7 +104,7 @@ bool = isStructDataType( 'int32' );
 ```javascript
 import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/dstructs-struct@deno/mod.js';
 import DataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtype-ctor@deno/mod.js';
-import isStructDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-struct-data-type@v0.1.1-deno/mod.js';
+import isStructDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-struct-data-type@deno/mod.js';
 
 var Struct = structFactory([
     {
